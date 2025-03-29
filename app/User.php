@@ -5,5 +5,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class User extends Model {
     protected $table = 'tbluser';
-    protected $fillable = ['username', 'password'];
+    protected $fillable = ['username', 'email', 'password'];
 }
